@@ -1,3 +1,4 @@
+<!-- What are Div Elements and When Should You Use Them? -->
 <div>
   <p>Example paragraph element.</p>
   <p>Example 2 paragraph element</p>
@@ -27,3 +28,73 @@
     <li>Dolphin</li>
   </ul>
 </section>
+
+<!-- What Are IDs and Classes, and When Should You Use Them? -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Review page Example</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+  <h1 id="title">Movie Review Page</h1>
+  <h2 id="subtitle">The Godfather</h2>
+  <h1 id="main heading">Main heading</h1>
+
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Colored boxes example</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+  <div class="box red-box"></div>
+  <div class="box blue-box"></div>
+  <div class="box red-box"></div>
+  <div class="box blue-box"></div>
+</body>
+
+</html>
+
+
+<style>
+  #title {
+    color: red;
+  }
+
+  #subtitle {
+    color: blue;
+  }
+
+  /* it won't work because of the space in the id 
+#main heading{
+  color: green;
+}
+*/
+
+  .box {
+    width: 100px;
+    height: 100px;
+  }
+
+  .red-box {
+    background-color: red;
+  }
+
+  .blue-box {
+    background-color: blue;
+  }
+</style>
